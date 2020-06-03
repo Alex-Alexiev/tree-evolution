@@ -14,7 +14,7 @@ class Forest {
         let density = this.treesPer100/100
         let numTrees = density*width
         for (let i = 1; i < numTrees; i++){
-            this.trees.push(new Tree(i/density, height, Math.random()*80+5, Math.random()*0.5+0.5))
+            this.trees.push(new Tree(i/density, height, Math.random()*80+5, Math.random()*0.3+0.7))
         }
     }
 

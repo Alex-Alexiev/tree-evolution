@@ -1,5 +1,6 @@
 function setup(){
-    createCanvas(innerWidth, 500)
+    let canvas = createCanvas(innerWidth, 500)
+    canvas.parent("canvas")
     forest = new Forest(3)
 }
 

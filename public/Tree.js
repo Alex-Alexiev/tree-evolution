@@ -39,7 +39,7 @@ class Tree {
 
     energy = 0
 
-    static energyNeededPerGeneration = [0, 0, 0, 4, 7, 10, 15, 20]
+    static energyNeededPerGeneration = [0, 0, 1, 3, 6, 10, 15, 20]
 
     time = 0
     generation = 0
